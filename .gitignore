@@ -1,0 +1,50 @@
+# ===== 依赖 =====
+node_modules/
+.pnpm-store/
+
+# ===== 构建产物 =====
+dist/
+dist-ssr/
+*.local
+
+# ===== Capacitor / Android（生成目录）=====
+android/
+.idea/
+
+# ===== 环境变量（真实凭据不要提交）=====
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ===== 编辑器 / 系统 =====
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.swp
+
+# ===== 日志 =====
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== 压缩包 / 备份 =====
+*.zip
+*.tar.gz
+*.rar
+*.bak
+*.tmp
+
+# ===== Python（如含后端文件）=====
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ===== TypeScript =====
+*.tsbuildinfo
